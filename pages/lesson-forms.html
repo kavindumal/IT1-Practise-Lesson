@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-Forms</title>
+</head>
+<style>
+
+    button {
+        color: white;
+        width: 80px;
+        height: 25px;
+        border-color: transparent;
+        background-color: rgb(83, 83, 212);
+        border-radius: 30px;
+    }
+    button:hover {
+        background-color: rgb(228, 93, 93);
+    }
+    input {
+        margin-left: 100px;
+    }
+    textArea {
+        margin-top: -19px;
+        margin-left: 142px;
+    }
+    .fullNameTxt {
+        margin-left: 70px;
+    }
+</style>
+<body>
+    <h2><b>Contact Form</b></h2>
+    <form action="">
+        <label for="fullName">Full Name</label>
+        <input class="fullNameTxt" type="text" name="fullNameTxt" placeholder="Enter your full name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="text" name="emailTxt" placeholder="Enter your email address" required>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="messageTxtArea" id="messageTxtArea" cols="30" rows="10" placeholder="Enter your message"></textarea>
+        <br>
+        <button class="">Submit</button>
+    </form>
+</body>
+</html>

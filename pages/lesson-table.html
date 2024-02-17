@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lesson-Table</title>
     <style>
-        table { 
+        table {
             border: 1px solid black;
         }
+
         th {
             border: 1px solid blue;
             background-color: rgb(16, 183, 239);
         }
+
         td {
             background-color: rgb(248, 241, 255);
             border: 1px solid lightcoral;
         }
     </style>
 </head>
+
 <body>
     <table>
         <thead>
@@ -72,7 +76,7 @@
                 <td>Total</td>
                 <td></td>
                 <td>Rs. 290.00</td>
-            </tr>   
+            </tr>
         </tfoot>
     </table>
     <br>
@@ -90,7 +94,7 @@
         </tr>
         <tr style="height: 100px;"">
             <td>6</td>
-            <td colspan="2">7</td>
+            <td colspan=" 2">7</td>
             <td>8</td>
         </tr>
         <tr style="height: 100px;">
@@ -98,5 +102,30 @@
             <td>10</td>
         </tr>
     </table>
+    <br>
+    <br>
+    <br>
+
+    <table style="width: 400px; text-align: center;">
+        <tr style="height: 100px;">
+            <td rowspan="2">1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td rowspan="3">8</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td rowspan="2">9</td>
+            <td>11</td>
+        </tr>
+        <tr style="height: 100px;">
+            <td>15</td>
+        </tr>
+    </table>
 </body>
+
 </html>
